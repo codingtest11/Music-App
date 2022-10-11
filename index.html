@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Music App</title>
+</head>
+<body>
+    <div class="music_container">
+
+        <div class="topBar-bg">
+            <div class="header_box">
+                <h1>VOLET MUSIC BOX</h1>
+            </div>
+            <div class="nav_box">
+                <ul>
+                    <li>Queue</li>
+                    <li>Natural Sounds</li>
+                    <li>English Songs</li>
+                    <li>Elish Stories</li>
+                    <li>Chinese Songs</li>
+                    <li>Chinese Stories</li>
+                    <li>Download</li>
+                </ul>
+            </div>
+        </div>
+       
+        <div class="Player_box">
+            <div class="player_box_bg">
+                <div class="image">
+                    <img src="images/music-3.jpg" alt="">
+                </div>
+                <div class="controls">
+                    <div class="play-pause">
+                        <i class="material-icons play">play_arrow</i>
+                    </div>
+                    <div class="play-pre-next">
+                        <i id="prev" class="material-icons">skip_previous</i>
+                        <i id="next" class="material-icons">skip_next</i>
+                    </div>
+                </div>
+                <div class="title-progress">
+                    <div class="music_title">
+                        <p>Good Vibes</p>
+                    </div>
+                    <div class="progress-box">
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                              <audio id="main-audio" src=""></audio>
+                            </div>
+                        </div>
+                        <div class="song-timer">
+                            <span class="current-time">0:00</span>
+                            <span class="max-duration">0:00</span>
+                        </div>
+                        <i id="volume" class="material-icons">volume_up</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="musicList_box">
+            <div class="musicList_bg">
+                <ul>
+                    <li>
+                        <div class="row">
+                            <span>1. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>2. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/music-list.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
