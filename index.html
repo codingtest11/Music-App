@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Nighttime Audio Player</title>
+</head>
+<body>
+    <div class="music_container">
+
+        <div class="topBar-bg">
+            <div class="header_box">
+                <h1>Nighttime Audio Player</h1>
+            </div>
+            <div class="dropdown_menu">
+                <i id="menu" class="material-icons">menu</i>
+            </div>
+            <div class="nav_box">
+                <ul>
+                    <a href="index.html"><li>Queue</li></a>
+                    <a href="naturalSounds.html"><li>Natural Sounds</li></a>
+                    <a href="englishSongs.html"><li>English Songs</li></a>
+                    <a href="englishStories.html"><li>English Stories</li></a>
+                    <a href="chineseSongs.html"><li>Chinese Songs</li></a>
+                    <a href="chineseStories.html"><li>Chinese Stories</li></a>
+                    <a href="download.html"><li>Download</li></a>
+                </ul>
+            </div>
+        </div>
+        <!-- playlist -->
+        <div class="musicList_box">
+            <div class="musicList_bg">
+                <ul>
+                    <li>
+                        <div class="row">
+                            <span>1. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>2. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>3. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- play bar on the bottom  -->
+        <div class="Player_box">
+            <div class="player_box_bg">
+                <div class="image">
+                    <img src="images/music-3.jpg" alt="">
+                </div>
+                <div class="title-playbar">
+                    <div class="title-progress">
+                        <div class="music_title">
+                            <h3>Good Vibes version</h3>
+                        </div>
+                        <p>author</p>
+                    </div>
+                    <div class="controls">
+                        <div class="play-pre-next">
+                            <i id="prev" class="material-icons">skip_previous</i>
+                            <div class="play-pause">
+                                <i class="material-icons play">play_arrow</i>
+                            </div>
+                            <i id="next" class="material-icons">skip_next</i>
+                        </div>
+                        <div class="close">
+                            <i id="close" class="material-icons">close</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-box">
+                    <div class="progress-area">
+                        <div class="progress-bar">
+                          <audio id="main-audio" src=""></audio>
+                        </div>
+                    </div>
+                    <!-- <div class="song-timer">
+                        <span class="current-time">0:00</span>
+                        <span class="max-duration">0:00</span>
+                    </div> -->
+                    <!-- <i id="volume" class="material-icons">volume_up</i> -->
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
