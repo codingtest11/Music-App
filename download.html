@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Nighttime Audio Player</title>
+</head>
+<body>
+    <div class="music_container">
+
+        <div class="topBar-bg">
+            <div class="header_box">
+                <h1>Nighttime Audio Player</h1>
+            </div>
+            <div class="dropdown_menu">
+                <i id="menu" class="material-icons">menu</i>
+            </div>
+            <div class="nav_box">
+                <ul>
+                    <a href="index.html"><li>Queue</li></a>
+                    <a href="naturalSounds.html"><li>Natural Sounds</li></a>
+                    <a href="englishSongs.html"><li>English Songs</li></a>
+                    <a href="englishStories.html"><li>English Stories</li></a>
+                    <a href="chineseSongs.html"><li>Chinese Songs</li></a>
+                    <a href="chineseStories.html"><li>Chinese Stories</li></a>
+                    <a href="download.html"><li>Download</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="download_title">
+            <h3>Downloads</h3>
+        </div>
+        <div class="download_box">
+            <div class="download_box_bg">
+                <div class="download_field">
+                    <div class="input_field">
+                        <div class="progressBar">
+                            <div class="bar">
+                                <span class="loader"></span>
+                            </div>
+                            <div class="info">
+                                <p class="completion">
+                                    <span class="percentage">0%</span>
+                                    <span class="complete">completed</span>
+                                    <span class="seconds">0</span>
+                                    <span class="secondsText">secs remaining</span>
+                                </p>
+                            </div>
+                        </div>
+                        <input class="inputPart" type="text" placeholder="url...">
+                        <input class="inputSongName" type="text" placeholder="Rename file">
+                        <div class="dropdown">
+                            <button class="dropdown_toggle" type="button">Select...</button>
+                            <ul class="dropdownMenu" role="listbox">
+                                <li class="dropdown_option" role="option" tabindex="0">Natural Songs</li>
+                                <li class="dropdown_option" role="option" tabindex="0">English Songs</li>
+                                <li class="dropdown_option" role="option" tabindex="0">English Stories</li>
+                                <li class="dropdown_option" role="option" tabindex="0">Chinese Songs</li>
+                                <li class="dropdown_option" role="option" tabindex="0">Chinese Stories</li>
+                            </ul>
+                        </div>
+                        <div class="dropdown_btn">
+                            <button class="btn" id="save">Generate</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="addbtn">
+                    <span id="add">Add a generator</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="musicList_box">
+            <div class="completeTitle">
+                <h4>Completed</h4>
+            </div>
+            <div class="musicList_bg">
+                <ul class="ulTag">
+                    <li>
+                        <div class="row">
+                            <div class="thumbnail_small">
+                                <img src="music-3.jpg" alt="">
+                            </div>
+                            <span>1. Good Vibes</span>
+                        </div>
+                        <span>02:50</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
